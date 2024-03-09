@@ -1,0 +1,45 @@
+p {
+    color: #0c0f0e;
+    font-family: verdana;
+}
+
+.arrowIMG {
+    /*position: fixed;*/
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.5s ease;
+}
+
+.ThemeSwitch {
+    display: none;
+    position: fixed;
+    top: 25px; /* Ändere diesen Wert, um den Abstand vom oberen Rand anzupassen */
+    right: 0.7%;
+    width: 150px; /* Ändere diesen Wert entsprechend der gewünschten Breite */
+    height: 150px; /* Ändere diesen Wert entsprechend der gewünschten Höhe */
+    background-color: #6e3a26;
+    border-radius: 10px; /* Füge abgerundete Ecken hinzu */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #97775b;
+}
+
+#headerBar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    max-height: 20px;
+    margin-top: 10px;
+    margin-left: 0.6%;
+    background-color: #6e3a26;
+    padding: 6px;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 2;
+}
